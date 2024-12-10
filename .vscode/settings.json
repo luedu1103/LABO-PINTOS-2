@@ -1,6 +1,7 @@
 {
     "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
-        "round.h": "c"
+        "round.h": "c",
+        "input.h": "c"
     }
 }

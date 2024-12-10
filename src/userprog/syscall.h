@@ -1,12 +1,12 @@
 #ifndef USERPROG_SYSCALL_H
 #define USERPROG_SYSCALL_H
-#include "threads/thread.h"
-#include "filesys/file.h"
+#include "userprog/process.h"
 
-extern struct lock filesys_lock;
 void syscall_init (void);
-bool is_valid_ptr (const void *);
-
 void sys_exit (int);
+
+#ifdef VM
+bool sys_munmap (mmapid_t);
+#endif
 
 #endif /* userprog/syscall.h */

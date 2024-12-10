@@ -1,7 +1,6 @@
 {
     "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
-        "round.h": "c",
-        "input.h": "c"
+        "*.inc": "cpp"
     }
 }
